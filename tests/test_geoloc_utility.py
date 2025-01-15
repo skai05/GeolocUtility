@@ -1,5 +1,7 @@
 import unittest
+
 from utility.geoloc_utility import GeoLocUtility
+
 
 class TestGeoLocUtility(unittest.TestCase):
     def test_valid_city_state(self):
